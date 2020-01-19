@@ -60,10 +60,14 @@ npm install -D ts-loader webpack webpack-cli webpack-node-externals
 ```
 
 _N.B._
-> A default `tsconfig.json` file is included. However, to generate new run:`npx tsc --init`
-> A sample `example.env` file is included. Environmental vars should be changed to a personal auth token
-> A reasonable `webpack.config.ts` file with Hot Module Replacement (HMR) is included.
-For additional customization of Webpack see [docs](https://)
+
+A default `tsconfig.json` file is included. However, to generate new run: `npx tsc --init`.
+
+A sample `example.env` file is included. Environmental vars should be changed to a personal auth token.
+
+A reasonable `webpack.config.ts` file with Hot Module Replacement (HMR) is included.
+
+For additional customization of Webpack see [docs](https://webpack.js.org/configuration/configuration-languages#typescript)
 
 ## Typescript
 
