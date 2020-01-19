@@ -18,8 +18,6 @@ jobs:
         node-version: '12.x'
     - name: Install dependencies
       run: npm install
-    - name: Stop   
-      run: npm run stop
       env:
         CI: true
   
