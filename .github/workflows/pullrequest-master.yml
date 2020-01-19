@@ -20,6 +20,8 @@ jobs:
       run: npm install
     - name: Bundle   
       run: npm run webpack
+    - name: Stop   
+      run: npm run stop
       env:
         CI: true
   
