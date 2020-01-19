@@ -8,6 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "type-check": "tsc --noEmit",
     "webpack": "webpack --config webpack.config.ts"
+    "stop": "killall node"
   },
   "keywords": [
     "typescript",
