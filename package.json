@@ -7,8 +7,7 @@
     "start": "node dist/index",
     "test": "echo \"Error: no test specified\" && exit 1",
     "type-check": "tsc --noEmit",
-    "webpack": "webpack --config webpack.config.ts",
-    "stop": "killall node"
+    "webpack": "webpack --config webpack.config.ts"
   },
   "keywords": [
     "typescript",
