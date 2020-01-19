@@ -19,7 +19,7 @@ jobs:
     - name: Install dependencies
       run: npm install
     - name: Bundle   
-      run: npm webpack
+      run: npm run webpack
       env:
         CI: true
   
