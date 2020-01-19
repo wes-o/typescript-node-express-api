@@ -17,7 +17,8 @@ This `README` will guide you through creating an express server quickly in the p
 Open a terminal on your computer and run:
 
 ```bash
-git clone
+git clone https://github.com/wes-o/typescript-node-express-api && cd typescript-node-express-api
+mv .env.example .env
 npm install
 npm run webpack
 npm start
