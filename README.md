@@ -73,8 +73,8 @@ In the Typescript language, `<type>` is the name of the game. The structure of a
 
 > this will enable us to define custom `<type>`
 
-Overall
-> *Interfaces will not be part of the compiled bundle from Webpack*
+Overall, *Interfaces will not be part of the compiled bundle from Webpack*
+
 If you require an instance of an object a *class* should be used instead.
 
 ### Future Improvements
